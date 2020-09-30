@@ -1,9 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
     "\\Esercizio2",
     "\\Esercizio2\\query"
   ],
   "SelectedNode": "\\Esercizio2\\query\\Query.txt",
+=======
+    "\\Esercizio2"
+  ],
+  "SelectedNode": "\\Esercizio2\\Esercizio2.sln",
+>>>>>>> 01c263405e41228eb7459c7853b11673ae27c7e8
   "PreviewInSolutionExplorer": false
 }
