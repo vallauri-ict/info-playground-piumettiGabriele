@@ -5,3 +5,39 @@
 5) SELECT Titolo FROM Film WHERE Regista = (SELECT Regista FROM Film WHERE Titolo = 'Casablanca')
 6) SELECT Titolo, Genere FROM Film f, Proiezioni p WHERE p.CodFilm = f.CodFilm AND p.DataProiezione = '25/12/2004'
 7) SELECT Titolo, Genere FROM Film f, Proiezioni p, Sale s WHERE p.CodFilm = f.CodFilm AND p.DataProiezione = '25/12/2004' AND p.CodSala = s.CodSala AND s.Citta = 'Napoli'
+
+
+
+20) SELECT f FROM 
+
+21) SELECT f.regista, f.titolo FROM FILM f, RECITA r, ATTORI a WHERE f.codFilm = r.codFilm AND (SELECT COUNT(*) FROM a WHERE r.codAttore = a.codAttore)<6
+
+22) SELECT p.codFilm, f.titolo, SUM(p.incasso) FROM FILM f, PROIEZIONI p WHERE f.annoProduzione > 2000 ORDER BY p.codFilm;
+
+23) SELECT COUNT(*) FROM FILM f, ATTORI a, RECITA r WHERE f.codFilm = r.codFilm AND r.codAttore = a.codAttore AND a.annoNascita < 1970;
+
+24) SELECT f.film, SUM(p.incasso) FROM FILM f, PROIEZIONI p WHERE f.codFilm = p.codFilm AND f.genere = 'fantascienza' ORDER BY p.codFilm;
+
+25) SELECT f.film, SUM(p.incasso) FROM FILM f, PROIEZIONI p WHERE f.codFilm = p.codFilm AND f.genere = 'fantascienza' AND p.dataProiezione > CAST('2001-01-01' as date) ORDER BY p.codFilm;
+
+26) SELECT * FROM SELECT f.film, SUM(p.incasso) FROM FILM f, PROIEZIONI p WHERE f.codFilm = p.codFilm AND f.genere = 'fantascienza' AND p.dataProiezione > CAST('2001-01-01' as date) ORDER BY p.codFilm;
+
+27) SELECT s.nome, SUM(p.incasso) FROM SALE s, PROIEZIONI p, FILM f WHERE s.citta = 'Pisa' AND s.codSala = p.codSala AND p.dataProiezione <= CAST('2005-01-31' as date) AND p.dataProiezione >= CAST('2005-01-01' as date) ORDER BY s.sale;
+
+28) SELECT f.titolo FROM FILM f, PROIEZIONI f, SALE s WHERE f.codFilm = p.codFilm AND p.codSala = s.codSala AND (SELECT COUNT(*) FROM f.codFilm = p.codFilm AND p.codSala = s.codSala AND s.citta = 'Pisa')=0;
+
+29) SELECT f.titolo FROM FILM f, PROIEZIONI f, SALE s WHERE f.codFilm = p.codFilm AND p.codSala = s.codSala AND (SELECT COUNT(*) FROM f.codFilm = p.codFilm AND p.codSala = s.codSala AND s.citta != 'Pisa')=0;
+
+30) SELECT f.titoli FROM FILM f, PROIEZIONI p WHERE f.codFilm = p.codFilm AND (SELECT COUNT(*) FROM FILM f, PROIEZIONI p WHERE f.codFilm = p.codFilm AND p.incasso > 500) = 0;
+
+31) SELECT f.titolo FROM FILM f, PROIEZIONI p WHERE f.codFilm = p.codFilm AND (SELECT COUNT(*) FROM FILM f, PROIEZIONI p WHERE f.codFilm = p.codFilm AND p.incasso > 500) = (SELECT COUNT(*) FROM PROIEZIONI);
+
+32) SELECT 
+
+33) SELECT * FROM f.titolo FROM FILM f, RECITA r, ATTORI a WHERE f.codFilm = r.codFilm AND r.codAttore = a.codAttore AND (SELECT COUNT(*) FROM FILM f, RECITA r, ATTORI a WHERE f.codFilm = r.codFilm AND r.codAttore = a.codAttore AND a.nazionalita = 'italiana') = 0;
+
+34) SELECT f.titolo FROM FILM f, RECITA r, ATTORI a WHERE f.codFilm = r.codFilm AND r.codAttore = a.codAttore AND (SELECT COUNT(*) FROM FILM f, RECITA r, ATTORI a WHERE f.codFilm = r.codFilm AND r.codAttore = a.codAttore) = 0;
+
+35) 
+
+36) 
