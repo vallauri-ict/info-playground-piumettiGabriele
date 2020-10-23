@@ -1,0 +1,3 @@
+fare le propietà nel aspx.cs di tutto (regioni, province, comuni) e finire di inserire le combobox nella progettazione.
+
+farlo funzionare

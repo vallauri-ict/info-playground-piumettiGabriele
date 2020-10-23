@@ -1,0 +1,6 @@
+C:\Users\g.piumetti.0827\Desktop\INFO\Es04_GestioneUtenti\Es04_GestioneUtenti\bin\Es04_GestioneUtenti.dll.config
+C:\Users\g.piumetti.0827\Desktop\INFO\Es04_GestioneUtenti\Es04_GestioneUtenti\bin\Es04_GestioneUtenti.dll
+C:\Users\g.piumetti.0827\Desktop\INFO\Es04_GestioneUtenti\Es04_GestioneUtenti\bin\Es04_GestioneUtenti.pdb
+C:\Users\g.piumetti.0827\Desktop\INFO\Es04_GestioneUtenti\Es04_GestioneUtenti\obj\Debug\Es04_GestioneUtenti.csprojAssemblyReference.cache
+C:\Users\g.piumetti.0827\Desktop\INFO\Es04_GestioneUtenti\Es04_GestioneUtenti\obj\Debug\Es04_GestioneUtenti.dll
+C:\Users\g.piumetti.0827\Desktop\INFO\Es04_GestioneUtenti\Es04_GestioneUtenti\obj\Debug\Es04_GestioneUtenti.pdb
