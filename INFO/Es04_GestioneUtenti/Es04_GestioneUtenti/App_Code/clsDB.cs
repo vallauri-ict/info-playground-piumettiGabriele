@@ -101,8 +101,9 @@ public class clsDB
             }
         }
 
+    public string Username { get { return username; } set { username = value; } }
 
-        public clsDB(string nomeDB)
+    public clsDB(string nomeDB)
         {
             this.ado = new ADOSQLServer2017(nomeDB);
         }
@@ -150,7 +151,7 @@ public class clsDB
                 "VALUES (@cognome, @nome, @username, @pwd, @dataNascita, @regioneNascita, @provinciaNascita, @comuneNascita)";
             cmd.Parameters.AddWithValue("@cognome", cognome);
             cmd.Parameters.AddWithValue("@nome", nome);
-            cmd.Parameters.AddWithValue("@username", username);
+            cmd.Parameters.AddWithValue("@username", Username);
             cmd.Parameters.AddWithValue("@pwd", pwd);
             cmd.Parameters.AddWithValue("@dataNascita", dataNascita);
             cmd.Parameters.AddWithValue("@regioneNascita", RegioneNascita);
@@ -186,6 +187,18 @@ public class clsDB
         dt = ado.EseguiQuery(cmd);
         if (dt.Rows.Count > 0)
             esito = true;
+        return esito;
+    }
+
+    public string login()
+    {
+        string esito = "-1";
+        SqlCommand cmd = new SqlCommand();
+        cmd.CommandText = "SELECT idUtente FROM Utenti WHERE userName = @username AND pwd = @pwd";
+        cmd.Parameters.AddWithValue("@username",username);
+        cmd.Parameters.AddWithValue("@pwd", pwd);
+        cmd.CommandType = CommandType.Text;
+        esito = ado.EseguiNonQuery(cmd).ToString();
         return esito;
     }
 }

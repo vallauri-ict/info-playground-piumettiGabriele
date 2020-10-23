@@ -15,9 +15,9 @@ namespace Es04_GestioneUtenti
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            db = new clsDB("AppData\\db_Biblioteca.mdf");
+            db = new clsDB("App_Data\\Biblioteca.mdf");
             //if (!Page.IsPostBack)
-                //popolaCmbRegioni();
+            //    popolaCmbRegioni();
         }
 
         protected void btnRegistrati_Click(object sender, EventArgs e)

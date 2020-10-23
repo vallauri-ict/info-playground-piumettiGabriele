@@ -62,6 +62,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Biblioteca.mdf" />
+    <Content Include="App_Data\Biblioteca_log.ldf">
+      <DependentUpon>Biblioteca.mdf</DependentUpon>
+    </Content>
     <Content Include="login.aspx" />
     <Content Include="Registrati.aspx" />
     <Content Include="Web.config" />
