@@ -1,0 +1,15 @@
+CREATE TRIGGER [triggerUpdate]
+	ON [dbo].[Cliente] AFTER UPDATE
+	AS
+	BEGIN
+		INSERT INTO storicoUpdate(dataOra, oldNome, oldCognome, newNome, newCognome) VALUES((SELECT CURRENT_TIMESTAMP, d.nome, d.cognome, i.nome, i.cognome FROM inserted i INNER JOIN deleted d ON i.IdCliente = d.IdCliente));
+	END
+
+-----------------------------
+
+CREATE TRIGGER [triggerDelete]
+	ON [dbo].[Cliente] AFTER DELETE
+	AS
+	BEGIN
+		INSERT INTO storicoCancellazioni(dataOra, nome, cognome) VALUES((SELECT CURRENT_TIMESTAMP, d.nome, d.cognome FROM deleted d));
+	END

@@ -1,0 +1,20 @@
+D:\Scuola\_INFO\Compiti teoria\piumettiEsercizioTrigger\piumettiEsercizioTrigger\bin\Debug\piumettiEsercizioTrigger.exe.config
+D:\Scuola\_INFO\Compiti teoria\piumettiEsercizioTrigger\piumettiEsercizioTrigger\bin\Debug\piumettiEsercizioTrigger.exe
+D:\Scuola\_INFO\Compiti teoria\piumettiEsercizioTrigger\piumettiEsercizioTrigger\bin\Debug\piumettiEsercizioTrigger.pdb
+D:\Scuola\_INFO\Compiti teoria\piumettiEsercizioTrigger\piumettiEsercizioTrigger\obj\Debug\piumettiEsercizioTrigger.csprojAssemblyReference.cache
+D:\Scuola\_INFO\Compiti teoria\piumettiEsercizioTrigger\piumettiEsercizioTrigger\obj\Debug\piumettiEsercizioTrigger.frmMain.resources
+D:\Scuola\_INFO\Compiti teoria\piumettiEsercizioTrigger\piumettiEsercizioTrigger\obj\Debug\piumettiEsercizioTrigger.Properties.Resources.resources
+D:\Scuola\_INFO\Compiti teoria\piumettiEsercizioTrigger\piumettiEsercizioTrigger\obj\Debug\piumettiEsercizioTrigger.csproj.GenerateResource.cache
+D:\Scuola\_INFO\Compiti teoria\piumettiEsercizioTrigger\piumettiEsercizioTrigger\obj\Debug\piumettiEsercizioTrigger.csproj.CoreCompileInputs.cache
+D:\Scuola\_INFO\Compiti teoria\piumettiEsercizioTrigger\piumettiEsercizioTrigger\obj\Debug\piumettiEsercizioTrigger.exe
+D:\Scuola\_INFO\Compiti teoria\piumettiEsercizioTrigger\piumettiEsercizioTrigger\obj\Debug\piumettiEsercizioTrigger.pdb
+C:\Users\Utente\Desktop\piumettiEsercizioTrigger\piumettiEsercizioTrigger\bin\Debug\piumettiEsercizioTrigger.exe.config
+C:\Users\Utente\Desktop\piumettiEsercizioTrigger\piumettiEsercizioTrigger\bin\Debug\piumettiEsercizioTrigger.exe
+C:\Users\Utente\Desktop\piumettiEsercizioTrigger\piumettiEsercizioTrigger\bin\Debug\piumettiEsercizioTrigger.pdb
+C:\Users\Utente\Desktop\piumettiEsercizioTrigger\piumettiEsercizioTrigger\obj\Debug\piumettiEsercizioTrigger.csprojAssemblyReference.cache
+C:\Users\Utente\Desktop\piumettiEsercizioTrigger\piumettiEsercizioTrigger\obj\Debug\piumettiEsercizioTrigger.frmMain.resources
+C:\Users\Utente\Desktop\piumettiEsercizioTrigger\piumettiEsercizioTrigger\obj\Debug\piumettiEsercizioTrigger.Properties.Resources.resources
+C:\Users\Utente\Desktop\piumettiEsercizioTrigger\piumettiEsercizioTrigger\obj\Debug\piumettiEsercizioTrigger.csproj.GenerateResource.cache
+C:\Users\Utente\Desktop\piumettiEsercizioTrigger\piumettiEsercizioTrigger\obj\Debug\piumettiEsercizioTrigger.csproj.CoreCompileInputs.cache
+C:\Users\Utente\Desktop\piumettiEsercizioTrigger\piumettiEsercizioTrigger\obj\Debug\piumettiEsercizioTrigger.exe
+C:\Users\Utente\Desktop\piumettiEsercizioTrigger\piumettiEsercizioTrigger\obj\Debug\piumettiEsercizioTrigger.pdb
